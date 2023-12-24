@@ -10,8 +10,10 @@
 ### html tags
 * html tags indicate the begining and ending of an html element using angle brackets `<html element name>` 
 * html tags usually comes in pairs `<opening tag>` `</closing tag`>
-* some tags can close themselves
-    * `<input>`, `<img>`, `<br>`, `<hr>`
+* some tags can close themselves:
+  ```html
+   <input>, <img>, <br>, <hr>
+  ```
 
 ### important html tags
 * `<html>` `</html>` : the **root** of an html document
@@ -21,7 +23,7 @@
   * `<title>` `</title>` : used for displaying **name** and **logo** in the browser tab
 
 ### html heading tags
-* there are in total **6** level heading tags
+* there are in total **6** level of heading tags
   * `<h1> </h1>` : defines the top level heading
   * `<h2> </h2>` : defines the second level heading
   * `<h3> </h3>` : defines the third level heading
@@ -57,4 +59,107 @@
   * `_blank` : opens link in a new tab
 
 
+### html lists
+There are two types of lists: `unordered` and `ordered`
+`unordered list` : no numbering, uses bullet points to display each list item
+```html
+    <ul>
+        <li>Good</li>
+        <li>Better</li>
+        <li>Best</li>
+    </ul>
+```
+`ordered list` : uses numbering to display each list item
+```html
+    <ol>
+        <li>Good</li>
+        <li>Better</li>
+        <li>Best</li>
+    </ol>
+```
+
+### html navigation tag
+```html
+<nav> </nav>
+```
+* navigation tag is used to define a section of navigation links
+* navigation tag is typically used to contain menus, lists of links, or other navigation-related content
+* navigation tag helps in organizing and structuring navigation elements on a web page
+
+### html main tag
+```html
+<main> </main>
+```
+* main tag defines the main content of a document
+* main tag encloses the central content area of a webpage
+* main tag typically excludes headers, footers, and sidebars
+
+### html footer tag
+```html
+    <footer> </footer>
+```
+* footer tag represents the footer of a section or a page
+* footer tag usually contains metadata, copyright information, contact details, or links to related documents
+* footer tag provides a consistent way to include information that appears at the bottom of a webpage
+* footer tag is often used to give users additional context or reference points
+
+### html section tag
+```html
+<section> </section>
+```
+* section tag defines a section in a document
+* section tag is used to group related content and typically has a heading
+* section tag is helpful for structuring content and making it more semantically meaningful
+
+### html image tag
+```html
+<img src="./assets/dashboard/design.png" alt="">
+<img src="https://unsplash.com/cat1353" alt="">
+```
+* image tag is a **self closing** tag
+* image tag is used to display visual content such as photos or graphics, into web pages
+* image tag uses the `src`` attribute to specify the image file's source (URL or local file path)
+* image tag has optional attributes including `alt` (alternative text) for accessibility and `width/height` for size control
+
+## html form tag
+```html
+<form action="">
+    <label for="">Email</label>
+    <input type="email">
+
+    <label for="">Password</label>
+    <input type="password">
+    <button>submit</button>
+</form>
+```
+* form tag encloses input elements to create a user interactive form like login, submission
+* form tag uses attributes like `action` (URL for form submission) and `method`` (HTTP method for sending data)
+* form tag contains various input elements (e.g., text fields, checkboxes) and often a submit button
+* form tag enables users to input data, which can be processed by the server upon submission
+* form tag is key for user interaction, data collection, and user authentication on websites
+
+### html input tag
+```html
+<input type="text">
+```
+* input tag is used for accepting user input
+* input tag `types` include **text, password, checkbox, radio,** and more
+* input tag uses attributes like **type** (input type), **name** (identifier for server-side processing), and placeholder (hint text)
+
+### html label tag
+```html
+<label for="">Password</label>
+<input type="password" name="subrata" placeholder="enter your password">
+```
+* label tag is used for creating a caption for a form element
+* label tag uses the `for` and `id` attributes to link the caption to the form element, or nests the form element inside the label tag
+* label tag allows the user to toggle the state of the form element by clicking or tapping on the caption
+
+### html textarea tag
+```html
+<textarea name="review" id="" cols="30" rows="10"></textarea>
+```
+* textarea tag is used for creating a multi-line text input
+* textarea tag uses the `rows` and `cols` attributes to specify the size of the input, or CSS to style it
+* textarea tag uses attributes like `name` (identifier for server-side processing), `placeholder` (hint text), `readonly` (read-only mode), `required` (mandatory input), and `wrap` (text wrapping mode)
 
