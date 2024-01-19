@@ -1,6 +1,16 @@
-# web-dev `subrata mondal`
+<h1 align="center">Web Development</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/node-20.11.0-blue" alt="python@3.11.0">
+  <img src="https://img.shields.io/badge/npm-10.2.4-moccasin" alt="pip@23.3.2">
+  <img src="https://img.shields.io/badge/html-5-orange" alt="poetry@1.7.1">
+  <img src="https://img.shields.io/badge/css-3-papayawhip" alt="pytest@7.4.4">
+</p> 
+
 > my web dev journey, with notes and projects
-## introduction
+
+<h1 align="left">HTML</h1>
+
+## Introduction
 ### what is html
 * html is not a programming language
 * html stands for **hypertext markup language**
