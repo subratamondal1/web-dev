@@ -10,7 +10,7 @@
 
 <h1 align="left">HTML</h1>
 
-## Introduction
+## HTML
 ### what is html
 * html is not a programming language
 * html stands for **hypertext markup language**
@@ -173,3 +173,54 @@ There are two types of lists: `unordered` and `ordered`
 * textarea tag uses the `rows` and `cols` attributes to specify the size of the input, or CSS to style it
 * textarea tag uses attributes like `name` (identifier for server-side processing), `placeholder` (hint text), `readonly` (read-only mode), `required` (mandatory input), and `wrap` (text wrapping mode)
 
+
+## CSS
+
+### Intro to CSS
+* CSS stands for Cascading Stylesheets
+* CSS is used to style websites.
+
+#### Methods for adding CSS to HTML
+There are three methods of adding CSS to HTML
+1. **Inline CSS**
+Style directly in the HTML. (Inside HTML Tags in HTML file)
+2. **Internal CSS**
+Using `<style>` tags within an HTML file. (Inside HTML file.)
+3. **External CSS (Recommended)**
+Linking an external CSS file.
+
+### CSS Common Properties
+#### color
+Sets the color of the text.
+
+There are three ways to set color.
+1. **Words**
+Ex: red, green, blue, orange, etc.
+2. **RGB**
+rgb(0,0,0) represents `black`.
+
+`RGB` stands for Red, Green, Blue.<br>
+`RGBA` same as RGB but `A` is `Alpha` stands for `Opacity`.
+3. **Hex**
+#ff0000 represents `red`.
+#### background-color
+Sets the background-color of the element.
+#### width
+Sets the width of the element.
+#### height
+Sets the height of the element.
+#### border
+Sets a border around the element.
+#### font-size
+Sets the size of the element.
+#### font-weight
+Sets the font weight of the element.
+#### font-family
+Sets the font family of the weight.
+### Specificity
+### Box Model
+### Complex Properties
+### Media Queries
+### Sudo Selectors
+### Animations
+### BEM 
