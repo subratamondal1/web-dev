@@ -258,10 +258,35 @@ You have multiple ways to reference an HTML element for styling.
 * Important at the end 
   * color: red !important;
 
-### Box Model
-The Box-Model in CSS is a way of describing how the size and layout of an HTML element are affected by its content, padding, border, and margin. The content is the innermost part of the box, followed by the padding, which creates space around the content. The border surrounds the padding, and the margin creates space outside the border. The total width and height of an element depend on the values of these four properties, as well as the display and box-sizing properties. 
+### Box Model (Container)
+The Box-Model in CSS is a way of describing how the size and layout of an HTML element are affected by its content, padding, border, and margin. The content is the innermost part of the box, followed by the padding, which creates space around the content. The border surrounds the padding, and the margin creates space outside the border. The total width and height of an element depend on the values of these four properties, as well as the display and box-sizing properties.
+
+The Box Model (Container) contains
+* **Content**
+* **Padding**
+* **Border**
+* **Margin** 
 
 ### Complex Properties
+#### 1. Display Property
+CSS display property has two values.
+* **Block :** takes 100% of the width and starts on a new line.
+  * Ex: <p></p>, <div></div> tags.
+* **Inline :** Doesn't allow you to set a width or height for element & starts on the same line.
+  * <span></span>, <img> tags.
+
+#### 2. Position Property
+CSS Position property has these common values.
+* **static (default) :**
+  * Follows normal flow of the page.
+* **relative :**
+  * Follows normal flow of the page.
+  * Let's you position using top, bottom, left and right.
+* **absolute :**
+  * Does `not` follow the normal flow of the page.
+  * Let's you position with top, bottom, left and right.
+  * Position is based off closest `position:relative` parent.
+
 ### Media Queries
 ### Sudo Selectors
 ### Animations
