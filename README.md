@@ -287,7 +287,36 @@ CSS Position property has these common values.
   * Let's you position with top, bottom, left and right.
   * Position is based off closest `position:relative` parent.
 
+CSS Position property has these uncommon values.
+* **Fixed :** 
+  * Sticks element to a permanent location on the page.
+  * Let's you use top, bottom, left and right.
+
+* **Sticky**
+  * Sticks element to a permanent location on the page once it hits a threshold.
+
 ### Media Queries
-### Sudo Selectors
+Media Queries are used to make the website `responsive`.
+
+Common breakpoints (max-width):
+* **576 px**
+  * Mobile Phones
+* **768 px**
+  * Tablets
+* **992 px**
+  * Desktops
+* **1200 px +**
+  * Large Desktops
+### Pseudo Selectors
+CSS has two pesudo selectors
+1. **after**
+2. **before**
+
 ### Animations
-### BEM 
+### BEM (Block Element Modifier) 
+BEM is a naming convention used for CSS Classes to make them easier to read and understand.
+
+* **B (Block) :** is the Block component.
+* **E (Element) :** is dependent on the Block component.
+* **M (Modifier) :** is used to change the style of the Block.
+
