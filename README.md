@@ -313,6 +313,40 @@ CSS has two pesudo selectors
 2. **before**
 
 ### Animations
+CSS Animations are a way of creating dynamic and interactive effects on web pages by changing the style of HTML elements over time.
+
+CSS Animations use the @keyframes rule to define the stages and styles of the animation, and the animation property or its sub-properties to apply the animation to an element and control its behavior. The keyframes can be specified using percentages (from 0% to 100%) or keywords (from and to).
+
+
+```python
+
+/* The animation code */
+@keyframes move {
+  0% {
+    left: 0;
+    background-color: red;
+  }
+  50% {
+    left: 50%;
+    background-color: yellow;
+  }
+  100% {
+    left: 100%;
+    background-color: green;
+  }
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+```
 ### BEM (Block Element Modifier) 
 BEM is a naming convention used for CSS Classes to make them easier to read and understand.
 
