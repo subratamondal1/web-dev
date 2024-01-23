@@ -1,36 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
 
-h3{
-  color: white;
-  background-color: rgba(0,0,0,0.8);
-}
-
-div{
-  width: 100%;
-  background-color: rgba(0,0,0,0.1);
-  border: 2px solid black;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-}
-
-.red{
-  color: red;
-}
-
-.blue{
-  color: blue;
-}
-
-#title{
-  color: purple;
-}
-
-#subtitle{
-  color:orange;
-}
-
 section{
   height: 80vh;
-  border: 2px solid black;
+  border: 2px solid orange;
 }

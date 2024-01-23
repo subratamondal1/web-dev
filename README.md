@@ -227,7 +227,40 @@ Sets the font weight of the element.
 Sets the font family of the weight.
 
 ### Specificity
+CSS specificity is a way of determining which CSS rule applies to an element when there are multiple rules that match it. The rule with the highest specificity value wins and overrides the others. Specificity values are calculated based on the type and number of selectors in the rule, such as IDs, classes, elements, pseudo-classes, and pseudo-elements.
+
+#### Styling CSS elements (Recommended)
+You have multiple ways to reference an HTML element for styling.
+* **Tag name**
+  * <div></div>
+  * div {color: red;}
+
+* Class name
+  * <div class="test"></div>
+  * .test{color:red;}
+
+* Id 
+  * <div id="test"></div>
+  * #id{color: red;}
+
+#### How to be even more specific (Bad Practices & Not Recommended)
+* Current element and selector
+  * div.class
+
+* Multiple selectors on current element
+  * .header.title
+  * #main.button
+
+* Parent before the selector
+  * div .class
+  * .header #id 
+
+* Important at the end 
+  * color: red !important;
+
 ### Box Model
+The Box-Model in CSS is a way of describing how the size and layout of an HTML element are affected by its content, padding, border, and margin. The content is the innermost part of the box, followed by the padding, which creates space around the content. The border surrounds the padding, and the margin creates space outside the border. The total width and height of an element depend on the values of these four properties, as well as the display and box-sizing properties. 
+
 ### Complex Properties
 ### Media Queries
 ### Sudo Selectors
