@@ -190,6 +190,7 @@ Using `<style>` tags within an HTML file. (Inside HTML file.)
 Linking an external CSS file.
 
 ### CSS Common Properties
+
 #### color
 Sets the color of the text.
 
@@ -203,20 +204,28 @@ rgb(0,0,0) represents `black`.
 `RGBA` same as RGB but `A` is `Alpha` stands for `Opacity`.
 3. **Hex**
 #ff0000 represents `red`.
+
 #### background-color
 Sets the background-color of the element.
+
 #### width
 Sets the width of the element.
+
 #### height
 Sets the height of the element.
+
 #### border
 Sets a border around the element.
+
 #### font-size
 Sets the size of the element.
+
 #### font-weight
 Sets the font weight of the element.
+
 #### font-family
 Sets the font family of the weight.
+
 ### Specificity
 ### Box Model
 ### Complex Properties
